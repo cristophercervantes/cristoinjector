@@ -2,8 +2,6 @@ package crawler
 
 import (
 	"net/url"
-	"strings"
-
 	"github.com/gocolly/colly"
 )
 
