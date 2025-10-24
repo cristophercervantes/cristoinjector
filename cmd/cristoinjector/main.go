@@ -1,21 +1,17 @@
-// cmd/cristoinjector/main.go
-
 package main
 
 import (
-	"flag"
-	"fmt"
-	"os"
-	"strings"
-	"time"
+    "flag"
+    "fmt"
+    "log"
+    "os"
+    "strings"
 
-	"github.com/fatih/color"
-	"github.com/gocolly/colly/v2"
-	"github.com/gocolly/colly/v2/extensions"
+    "github.com/cristophercervantes/cristoinjector/internal/crawler"
+    "github.com/cristophercervantes/cristoinjector/internal/detector"
+    "github.com/cristophercervantes/cristoinjector/internal/utils"
 
-	"cristoinjector/internal/crawler"
-	"cristoinjector/internal/detector"
-	"cristoinjector/internal/utils"
+    "github.com/fatih/color"
 )
 
 const (
